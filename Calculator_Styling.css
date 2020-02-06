@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.display {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    height: 100px;
+    width: 500px;
+}
+
