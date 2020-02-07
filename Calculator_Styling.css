@@ -1,9 +1,23 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    z-index: 2;
 }
 
 .bodyStyle {
     background-color: #556677;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 .container {
@@ -86,4 +100,8 @@ input {
 .equalsInputStyling {
     background-color: #006DEC;
     outline: none;
+}
+
+#particles-js {
+    z-index: 1;
 }
