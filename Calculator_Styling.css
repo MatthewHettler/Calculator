@@ -23,6 +23,10 @@
     border: 1px solid #333333;
 }
 
+.displayFontSize {
+    font-size: x-large;
+}
+
 input, #display {
     width: 500px;
     height: 70px;
@@ -34,15 +38,20 @@ input, #display {
 }
 
 h1 {
+    font-family: sans-serif;
     color: #FFFFFF;
     text-shadow: 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), 2px 2px 2px rgba(206,89,55,0);
     background-color: #556677;
 }
 
+.h1Div {
+    margin-top: .5em;
+}
+
 hr {
     border:none;
     height: 20px;
-    width: 90%;
+    width: 65%;
     /*height: 50px;*/
     border-bottom: 1px solid #1f1209;
     box-shadow: 0 20px 20px -20px #333;
@@ -63,7 +72,11 @@ hr {
     padding-left: 0;
 }
 
-button {
+input {
     width: 100%;
     height: 100%;
+}
+
+.cInputStyling {
+    background-color: #E7702B;
 }
