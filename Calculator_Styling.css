@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+}
+
 .bodyStyle {
     background-color: #556677;
 }
@@ -19,6 +23,11 @@
     border: 1px solid #333333;
 }
 
+input, #display {
+    width: 500px;
+    height: 70px;
+}
+
 .row {
     height: 100px;
     width: 500px;
@@ -33,7 +42,7 @@ h1 {
 hr {
     border:none;
     height: 20px;
-    width: 55%;
+    width: 90%;
     /*height: 50px;*/
     border-bottom: 1px solid #1f1209;
     box-shadow: 0 20px 20px -20px #333;
@@ -50,5 +59,11 @@ hr {
     align-items: center;
     justify-content: center;
     border: 1px solid #333333;
+    padding-right: 0;
+    padding-left: 0;
 }
 
+button {
+    width: 100%;
+    height: 100%;
+}
